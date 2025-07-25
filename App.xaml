@@ -1,0 +1,18 @@
+﻿<Application x:Class="PRN212_Project.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PRN212_Project"
+             xmlns:vm="clr-namespace:PRN212_Project.ViewModels"
+             StartupUri="Views/LoginWindow.xaml">
+    <Application.Resources>
+        <local:LimitConverter x:Key="LimitConverter"/>
+        <local:CurrencyConverter x:Key="CurrencyConverter"/>
+        <vm:LoginViewModel x:Key="LoginViewModel"/>
+        <vm:RegisterViewModel x:Key="RegisterViewModel"/>
+        <vm:ForgotPasswordViewModel x:Key="ForgotPasswordViewModel"/>
+        <vm:OverviewViewModel x:Key="OverviewViewModel"/>
+        <vm:AddIncomeViewModel x:Key="AddIncomeViewModel"/>
+        <vm:AddExpenseViewModel x:Key="AddExpenseViewModel"/>
+        <vm:ManageCategoriesViewModel x:Key="ManageCategoriesViewModel"/>
+    </Application.Resources>
+</Application>

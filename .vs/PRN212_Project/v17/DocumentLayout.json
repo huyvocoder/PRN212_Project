@@ -1,0 +1,683 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\overviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\overviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\viewmodels\\overviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:viewmodels\\overviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\overviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\overviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\addexpensewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\addexpensewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\addexpensewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\addexpensewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\viewmodels\\addexpenseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:viewmodels\\addexpenseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\addincomewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\addincomewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\viewmodels\\addincomeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:viewmodels\\addincomeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\changepasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\changepasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\viewmodels\\managecategoriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:viewmodels\\managecategoriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\helpers\\bindablepasswordbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:helpers\\bindablepasswordbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\addincomewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\addincomewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\viewmodels\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:viewmodels\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\managecategorieswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\managecategorieswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\models\\prn212projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:models\\prn212projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\views\\managecategorieswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:views\\managecategorieswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\helpers\\replycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:helpers\\replycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\converters\\limitconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:converters\\limitconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\converters\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:converters\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\prn212_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:prn212_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|c:\\users\\razer\\onedrive\\m\u00E1y t\u00EDnh\\prn212test\\prn212_project\\prn212_project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A224E212-4967-4B1B-BA17-592AAB813F8D}|PRN212_Project.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddExpenseWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\AddExpenseWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\AddExpenseWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\AddExpenseWindow.xaml",
+              "RelativeToolTip": "Views\\AddExpenseWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:57:43.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddExpenseWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\AddExpenseWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AddExpenseWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\AddExpenseWindow.xaml.cs",
+              "RelativeToolTip": "Views\\AddExpenseWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:58:02.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OverviewWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\OverviewWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\OverviewWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\OverviewWindow.xaml",
+              "RelativeToolTip": "Views\\OverviewWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:52:11.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OverviewViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\OverviewViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OverviewViewModel.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\OverviewViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OverviewViewModel.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAowI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:52:50.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OverviewWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\OverviewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\OverviewWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\OverviewWindow.xaml.cs",
+              "RelativeToolTip": "Views\\OverviewWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:55:08.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddExpenseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\AddExpenseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddExpenseViewModel.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\AddExpenseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AddExpenseViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:58:41.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddIncomeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\AddIncomeWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\AddIncomeWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\AddIncomeWindow.xaml",
+              "RelativeToolTip": "Views\\AddIncomeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:56:08.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddIncomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\AddIncomeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddIncomeViewModel.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\AddIncomeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AddIncomeViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:56:56.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\RegisterWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\RegisterWindow.xaml",
+              "RelativeToolTip": "Views\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:48:49.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RegisterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "Views\\RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:48:51.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:49:24.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChangePasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ChangePasswordWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\ChangePasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ChangePasswordWindow.xaml",
+              "RelativeToolTip": "Views\\ChangePasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T14:44:18.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangePasswordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ChangePasswordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ChangePasswordWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ChangePasswordWindow.xaml.cs",
+              "RelativeToolTip": "Views\\ChangePasswordWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:49:03.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAgwIkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:42:21.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageCategoriesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\ManageCategoriesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ManageCategoriesViewModel.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\ManageCategoriesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ManageCategoriesViewModel.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv1sAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:00:02.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BindablePasswordBox.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Helpers\\BindablePasswordBox.cs",
+              "RelativeDocumentMoniker": "Helpers\\BindablePasswordBox.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Helpers\\BindablePasswordBox.cs",
+              "RelativeToolTip": "Helpers\\BindablePasswordBox.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T16:39:51.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddIncomeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\AddIncomeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AddIncomeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\AddIncomeWindow.xaml.cs",
+              "RelativeToolTip": "Views\\AddIncomeWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:03:43.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ForgotPasswordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ForgotPasswordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ForgotPasswordWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ForgotPasswordWindow.xaml.cs",
+              "RelativeToolTip": "Views\\ForgotPasswordWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T09:46:00.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ForgotPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ForgotPasswordViewModel.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:51:33.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:40:30.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:45:37.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwEAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:42:44.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ForgotPasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ForgotPasswordWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\ForgotPasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ForgotPasswordWindow.xaml",
+              "RelativeToolTip": "Views\\ForgotPasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:50:36.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ManageCategoriesWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ManageCategoriesWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\ManageCategoriesWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ManageCategoriesWindow.xaml",
+              "RelativeToolTip": "Views\\ManageCategoriesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:59:28.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Services\\DataService.cs",
+              "RelativeToolTip": "Services\\DataService.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAgwLUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:42:13.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T07:37:20.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Prn212ProjectContext.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Models\\Prn212ProjectContext.cs",
+              "RelativeDocumentMoniker": "Models\\Prn212ProjectContext.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Models\\Prn212ProjectContext.cs",
+              "RelativeToolTip": "Models\\Prn212ProjectContext.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:38:38.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:41:40.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ManageCategoriesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ManageCategoriesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ManageCategoriesWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Views\\ManageCategoriesWindow.xaml.cs",
+              "RelativeToolTip": "Views\\ManageCategoriesWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:04:08.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:05:27.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:05:26.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LimitConverter.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Converters\\LimitConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\LimitConverter.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Converters\\LimitConverter.cs",
+              "RelativeToolTip": "Converters\\LimitConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:00:38.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CurrencyConverter.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Converters\\CurrencyConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\CurrencyConverter.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Converters\\CurrencyConverter.cs",
+              "RelativeToolTip": "Converters\\CurrencyConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:01:06.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReplyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Helpers\\ReplyCommand.cs",
+              "RelativeDocumentMoniker": "Helpers\\ReplyCommand.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\Helpers\\ReplyCommand.cs",
+              "RelativeToolTip": "Helpers\\ReplyCommand.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:41:26.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PRN212_Project.csproj",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\PRN212_Project.csproj",
+              "RelativeDocumentMoniker": "PRN212_Project.csproj",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\PRN212_Project.csproj",
+              "RelativeToolTip": "PRN212_Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-25T07:37:02.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:41:42.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-25T07:35:34.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RAZER\\OneDrive\\M\u00E1y t\u00EDnh\\PRN212Test\\PRN212_Project\\PRN212_Project\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:35:32.557Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
