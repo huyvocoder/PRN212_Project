@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace PRN212_Project
+namespace PRN212_Project.Converters
 {
     public class CurrencyConverter : IValueConverter
     {

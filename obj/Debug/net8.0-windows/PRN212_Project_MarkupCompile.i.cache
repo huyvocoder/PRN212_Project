@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\RAZER\OneDrive\Máy tính\PRN212Test\PRN212_Project\PRN212_Project\App.xaml
-9-676935978
+101679313577
 
-33-566479415
+35-806596847
 2321715121226
-MainWindow.xaml;Views\AddExpenseWindow.xaml;Views\AddIncomeWindow.xaml;Views\ChangePasswordWindow.xaml;Views\ForgotPasswordWindow.xaml;Views\LoginWindow.xaml;Views\ManageCategoriesWindow.xaml;Views\OverviewWindow.xaml;Views\RegisterWindow.xaml;
+MainWindow.xaml;Views\AddCategoryWindow.xaml;Views\AddExpenseWindow.xaml;Views\AddIncomeWindow.xaml;Views\ChangePasswordWindow.xaml;Views\ForgotPasswordWindow.xaml;Views\LoginWindow.xaml;Views\OverviewWindow.xaml;Views\RegisterWindow.xaml;Views\TransactionHistoryWindow.xaml;
 
 True
 

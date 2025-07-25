@@ -5,73 +5,95 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PRN212_Project.Views"
         xmlns:vm="clr-namespace:PRN212_Project.ViewModels"
-        mc:Ignorable="d"
-        Title="Tổng quan tài chính" Height="600" Width="800">
+    mc:Ignorable="d"
+        Title="Financial Overview" Height="600" Width="800">
     <Window.Resources>
-        <!-- Đảm bảo LimitConverter của bạn được định nghĩa ở đây hoặc trong App.xaml -->
-        <!-- Ví dụ: <local:LimitConverter x:Key="LimitConverter"/> -->
+        <Style TargetType="Border" x:Key="CategoryBoxStyle">
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="5"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="120"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding BackgroundColor}" Value="LightYellow">
+                    <Setter Property="Background" Value="LightYellow"/>
+                    <Setter Property="BorderBrush" Value="Orange"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding BackgroundColor}" Value="LightCoral">
+                    <Setter Property="Background" Value="LightCoral"/>
+                    <Setter Property="BorderBrush" Value="Red"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
     </Window.Resources>
     <Window.DataContext>
         <vm:OverviewViewModel/>
     </Window.DataContext>
     <Grid Margin="10">
-        <StackPanel>
-            <Label Content="Tổng quan tài chính" FontWeight="Bold" Margin="0,0,0,5"/>
-            <TextBlock Text="{Binding Balance, StringFormat=Total Balance: {0:C}}" FontWeight="Bold" Margin="0,0,0,10"/>
-            <Button Content="Thêm thu nhập" Command="{Binding AddIncomeCommand}" Width="100" Margin="5"/>
-            <Label Content="Danh mục" FontWeight="Bold" Margin="0,0,0,5"/>
-            <ComboBox ItemsSource="{Binding MonthFilters}" SelectedItem="{Binding SelectedMonthFilter}" Width="150" Margin="0,0,0,10"/>
-            <DataGrid ItemsSource="{Binding Categories}" AutoGenerateColumns="False" Height="150" Margin="0,0,0,10">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Tên" Binding="{Binding Name}"/>
-                    <DataGridTextColumn Header="Định mức" Binding="{Binding MonthlyLimit, StringFormat=C}"/>
-                    <DataGridTextColumn Header="Đã chi" Binding="{Binding CurrentSpent, StringFormat=C}"/>
-                    <DataGridTemplateColumn Header="Hành động">
-                        <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <Button Content="Thêm chi tiêu" Command="{Binding DataContext.AddExpenseCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding Id}"/>
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
-                </DataGrid.Columns>
-                <DataGrid.RowStyle>
-                    <Style TargetType="DataGridRow">
-                        <Style.Triggers>
-                            <DataTrigger Binding="{Binding CurrentSpent, Converter={StaticResource LimitConverter}}" Value="Red">
-                                <Setter Property="Background" Value="LightCoral"/>
-                            </DataTrigger>
-                            <DataTrigger Binding="{Binding CurrentSpent, Converter={StaticResource LimitConverter}}" Value="Yellow">
-                                <Setter Property="Background" Value="LightYellow"/>
-                            </DataTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </DataGrid.RowStyle>
-            </DataGrid>
-            <Button Content="Quản lý danh mục" Command="{Binding ManageCategoriesCommand}" Width="150" Margin="5"/>
-            <Button Content="Change Password" Command="{Binding ChangePasswordCommand}" Width="150" Margin="5"/>
-            <!-- THÊM NÚT NÀY -->
-            <Label Content="Lịch sử giao dịch" FontWeight="Bold" Margin="0,0,0,5"/>
-            <DataGrid ItemsSource="{Binding Transactions}" AutoGenerateColumns="False" Height="150" Margin="0,0,0,10">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Ngày" Binding="{Binding Date, StringFormat=d}"/>
-                    <DataGridTextColumn Header="Loại" Binding="{Binding Type}"/>
-                    <DataGridTextColumn Header="Danh mục" Binding="{Binding Category.Name}"/>
-                    <DataGridTextColumn Header="Số tiền" Binding="{Binding Amount, StringFormat=C}"/>
-                    <DataGridTextColumn Header="Ghi chú" Binding="{Binding Note}"/>
-                </DataGrid.Columns>
-            </DataGrid>
-            <Label Content="Thông báo" FontWeight="Bold" Margin="0,0,0,5"/>
-            <DataGrid ItemsSource="{Binding Notifications}" AutoGenerateColumns="False" Height="100" Margin="0,0,0,10">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Thông báo" Binding="{Binding Message}"/>
-                    <DataGridTextColumn Header="Ngày" Binding="{Binding Date, StringFormat=d}"/>
-                    <DataGridTextColumn Header="Đã đọc" Binding="{Binding IsRead}"/>
-                </DataGrid.Columns>
-            </DataGrid>
-            <Label Content="Lời khuyên tài chính" FontWeight="Bold" Margin="0,0,0,5"/>
-            <TextBox Text="{Binding AIInput}" Width="300" Margin="0,0,0,10" TextWrapping="Wrap"/>
-            <Button Content="Nhận lời khuyên" Command="{Binding GetAIAdviceCommand}" Width="100" Margin="5"/>
-            <TextBlock Text="{Binding AIAdvice}" TextWrapping="Wrap" Margin="0,0,0,10"/>
-        </StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top Bar: Total Balance, Logout, Change Password, Add Income with History -->
+        <Grid Grid.Row="0" Margin="0,0,0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Horizontal" Grid.Column="0" VerticalAlignment="Center">
+                <TextBlock Text="{Binding Balance, StringFormat=Total Balance: {0}}" FontSize="32" FontWeight="Bold" VerticalAlignment="Center"/>
+                <Button Content="+" Command="{Binding AddIncomeCommand}" Width="30" Height="30" FontSize="20" FontWeight="Bold" Margin="10,0,5,0" VerticalAlignment="Center"/>
+                <Button Content="⏳" Command="{Binding ShowIncomeHistoryCommand}" Width="30" Height="30" FontSize="14" Margin="5,0,0,0" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <Button Grid.Column="1" Content="Change Password" Command="{Binding ChangePasswordCommand}" Width="120" Height="30" Margin="5,0"/>
+            <Button Grid.Column="2" Content="Logout" Command="{Binding LogoutCommand}" Width="80" Height="30" Margin="5,0"/>
+        </Grid>
+
+        <!-- Categories Section Header -->
+        <Grid Grid.Row="1" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Content="Categories" FontWeight="Bold" FontSize="18" VerticalAlignment="Center"/>
+            <Button Grid.Column="1" Content="Add Category" Command="{Binding AddCategoryCommand}" Width="100" Height="28"/>
+        </Grid>
+
+        <!-- Categories Display (as square boxes) -->
+        <ItemsControl Grid.Row="2" ItemsSource="{Binding Categories}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border Style="{StaticResource CategoryBoxStyle}">
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                            <TextBlock Text="{Binding CurrentSpent, StringFormat=Spent: {0}}" HorizontalAlignment="Center"/>
+                            <TextBlock Text="{Binding MonthlyLimit, StringFormat=Limit: {0}}" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Content="+" Command="{Binding DataContext.AddExpenseCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding Id}" Width="30" Height="25" FontSize="14" Margin="2"/>
+                                <Button Content="⏳" Command="{Binding DataContext.ShowCategoryHistoryCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding Id}" Width="30" Height="25" FontSize="14" Margin="2"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <!-- Income History Button -->
+        <Button Grid.Row="3" Content="Show Income History" Command="{Binding ShowIncomeHistoryCommand}" Width="150" Height="30" Margin="0,20,0,0" HorizontalAlignment="Center"/>
     </Grid>
 </Window>

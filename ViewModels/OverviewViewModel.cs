@@ -7,7 +7,8 @@ using PRN212_Project.Helpers;
 using PRN212_Project.Models;
 using PRN212_Project.Services;
 using PRN212_Project.Views;
-using System.Windows; // Cần thiết để sử dụng Window
+using System.Windows;
+using System.Linq;
 
 namespace PRN212_Project.ViewModels
 {
@@ -16,11 +17,6 @@ namespace PRN212_Project.ViewModels
         private readonly DataService _dataService = new DataService();
         private decimal _balance;
         private List<Category> _categories;
-        private List<Transaction> _transactions;
-        private List<Notification> _notifications;
-        private string _selectedMonthFilter;
-        private string _aiInput;
-        private string _aiAdvice;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -34,68 +30,53 @@ namespace PRN212_Project.ViewModels
             get => _categories;
             set { _categories = value; OnPropertyChanged(); }
         }
-        public List<Transaction> Transactions
-        {
-            get => _transactions;
-            set { _transactions = value; OnPropertyChanged(); }
-        }
-        public List<Notification> Notifications
-        {
-            get => _notifications;
-            set { _notifications = value; OnPropertyChanged(); }
-        }
-        public List<string> MonthFilters => new List<string> { "All Months", "July 2025", "June 2025", "May 2025" };
-        public string SelectedMonthFilter
-        {
-            get => _selectedMonthFilter;
-            set
-            {
-                _selectedMonthFilter = value;
-                LoadTransactions();
-                OnPropertyChanged();
-            }
-        }
-        public string AIInput
-        {
-            get => _aiInput;
-            set { _aiInput = value; OnPropertyChanged(); }
-        }
-        public string AIAdvice
-        {
-            get => _aiAdvice;
-            set { _aiAdvice = value; OnPropertyChanged(); }
-        }
 
         public ICommand AddIncomeCommand { get; }
         public ICommand AddExpenseCommand { get; }
-        public ICommand ManageCategoriesCommand { get; }
-        public ICommand GetAIAdviceCommand { get; }
-        public ICommand ChangePasswordCommand { get; } // THÊM: Command cho đổi mật khẩu
+        public ICommand ChangePasswordCommand { get; }
+        public ICommand LogoutCommand { get; }
+        public ICommand AddCategoryCommand { get; }
+        public ICommand ShowCategoryHistoryCommand { get; }
+        public ICommand ShowIncomeHistoryCommand { get; }
 
         public OverviewViewModel()
         {
             AddIncomeCommand = new RelayCommand(OpenAddIncome);
             AddExpenseCommand = new RelayCommand(AddExpense);
-            ManageCategoriesCommand = new RelayCommand(OpenManageCategories);
-            GetAIAdviceCommand = new RelayCommand(GetAIAdvice);
-            ChangePasswordCommand = new RelayCommand(OpenChangePassword); // THÊM: Khởi tạo Command
+            ChangePasswordCommand = new RelayCommand(OpenChangePassword);
+            LogoutCommand = new RelayCommand(Logout);
+            AddCategoryCommand = new RelayCommand(OpenAddCategory);
+            ShowCategoryHistoryCommand = new RelayCommand(OpenCategoryHistory);
+            ShowIncomeHistoryCommand = new RelayCommand(OpenIncomeHistory);
+
             LoadData();
         }
 
         private void LoadData()
         {
-            if (App.CurrentUserId == 0) return;
+            if (App.CurrentUserId == 0)
+            {
+                System.Diagnostics.Debug.WriteLine("LoadData: No user logged in, skipping.");
+                return;
+            }
             using var context = new Prn212ProjectContext();
             var user = context.Users.Find(App.CurrentUserId);
+            if (user == null)
+            {
+                System.Diagnostics.Debug.WriteLine($"LoadData: User with Id {App.CurrentUserId} not found.");
+                return;
+            }
             Balance = user.Balance;
-            Categories = new DataService().GetCategories(App.CurrentUserId);
-            LoadTransactions();
-            Notifications = new DataService().GetNotifications(App.CurrentUserId);
-        }
-
-        private void LoadTransactions()
-        {
-            Transactions = new DataService().GetTransactions(App.CurrentUserId, SelectedMonthFilter);
+            Categories = _dataService.GetCategories(App.CurrentUserId).Select(c =>
+            {
+                var transactions = _dataService.GetTransactions(App.CurrentUserId, "All Months");
+                System.Diagnostics.Debug.WriteLine($"LoadData: Category={c.Name}, Id={c.Id}, MonthlyLimit={c.MonthlyLimit}");
+                c.CurrentSpent = transactions
+                    .Where(t => t.CategoryId == c.Id && t.Type.ToLower() == "chi") // Thay "expense" bằng "chi"
+                    .Sum(t => t.Amount == null ? 0: t.Amount);
+                System.Diagnostics.Debug.WriteLine($"LoadData: Category={c.Name}, CurrentSpent={c.CurrentSpent}");
+                return c;
+            }).ToList();
         }
 
         private void OpenAddIncome(object parameter)
@@ -109,29 +90,47 @@ namespace PRN212_Project.ViewModels
         {
             if (parameter is int categoryId)
             {
+                System.Diagnostics.Debug.WriteLine($"AddExpense: Opening for CategoryId={categoryId}");
                 var window = new AddExpenseWindow(categoryId);
                 window.ShowDialog();
                 LoadData();
             }
         }
 
-        private void OpenManageCategories(object parameter)
+        private void OpenChangePassword(object parameter)
         {
-            var window = new ManageCategoriesWindow();
+            var window = new ChangePasswordWindow();
+            window.ShowDialog();
+        }
+
+        private void Logout(object parameter)
+        {
+            App.CurrentUserId = 0;
+            var loginWindow = new LoginWindow();
+            loginWindow.Show();
+            Application.Current.Windows.OfType<Window>().FirstOrDefault(w => w is OverviewWindow)?.Close();
+        }
+
+        private void OpenAddCategory(object parameter)
+        {
+            var window = new AddCategoryWindow();
             window.ShowDialog();
             LoadData();
         }
 
-        private void OpenChangePassword(object parameter) // THÊM: Phương thức để mở cửa sổ đổi mật khẩu
+        private void OpenCategoryHistory(object parameter)
         {
-            var window = new ChangePasswordWindow();
-            window.ShowDialog();
-            // Không cần LoadData() ở đây vì đổi mật khẩu không ảnh hưởng đến dữ liệu hiển thị
+            if (parameter is int categoryId)
+            {
+                var historyWindow = new TransactionHistoryWindow(categoryId: categoryId);
+                historyWindow.ShowDialog();
+            }
         }
 
-        private void GetAIAdvice(object parameter)
+        private void OpenIncomeHistory(object parameter)
         {
-            AIAdvice = new DataService().GetAIAdvice(App.CurrentUserId, AIInput);
+            var historyWindow = new TransactionHistoryWindow(isIncomeHistory: true);
+            historyWindow.ShowDialog();
         }
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

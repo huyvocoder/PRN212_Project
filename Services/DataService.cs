@@ -22,7 +22,6 @@ namespace PRN212_Project.Services
             using var context = new Prn212ProjectContext();
             if (context.Users.Any(u => u.Username == username || u.Email == email))
                 return false;
-
             var user = new User { Username = username, Password = password, Email = email, Balance = 0 };
             context.Users.Add(user);
             context.SaveChanges();
@@ -92,7 +91,7 @@ namespace PRN212_Project.Services
                 Amount = amount,
                 Note = note,
                 Date = date,
-                Type = "Thu"
+                Type = "Thu" // Đã đổi từ "Thu" sang "Income"
             });
             context.SaveChanges();
         }
@@ -111,14 +110,14 @@ namespace PRN212_Project.Services
                 Amount = amount,
                 Note = note,
                 Date = date,
-                Type = "Chi"
+                Type = "Chi" // Đã đổi từ "Chi" sang "Expense"
             });
             if (category.CurrentSpent >= category.MonthlyLimit * 0.8m)
             {
                 context.Notifications.Add(new Notification
                 {
                     UserId = userId,
-                    Message = $"Danh mục {category.Name} đạt {(category.CurrentSpent / category.MonthlyLimit * 100):F0}% định mức",
+                    Message = $"Category {category.Name} reached {(category.CurrentSpent / category.MonthlyLimit * 100):F0}% of limit", // Đã dịch
                     Date = DateTime.Now,
                     IsRead = false
                 });
@@ -126,17 +125,34 @@ namespace PRN212_Project.Services
             context.SaveChanges();
         }
 
-        public void AddCategory(int userId, string name, decimal limit)
+        // ĐIỀU CHỈNH: Phương thức AddCategory để trả về bool và kiểm tra trùng lặp
+        public bool AddCategory(int userId, string name, decimal limit)
         {
             using var context = new Prn212ProjectContext();
-            context.Categories.Add(new Category
+            try
             {
-                UserId = userId,
-                Name = name,
-                MonthlyLimit = limit,
-                ResetDate = DateTime.Now.AddMonths(1).Date
-            });
-            context.SaveChanges();
+                // Kiểm tra xem danh mục đã tồn tại cho người dùng này chưa
+                if (context.Categories.Any(c => c.UserId == userId && c.Name == name))
+                {
+                    return false; // Danh mục đã tồn tại
+                }
+
+                context.Categories.Add(new Category
+                {
+                    UserId = userId,
+                    Name = name,
+                    MonthlyLimit = limit,
+                    ResetDate = DateTime.Now.AddMonths(1).Date
+                });
+                context.SaveChanges();
+                return true; // Thêm thành công
+            }
+            catch (Exception ex)
+            {
+                // Ghi log lỗi nếu cần
+                System.Diagnostics.Debug.WriteLine($"Error adding category: {ex.Message}");
+                return false; // Xảy ra lỗi
+            }
         }
 
         public void UpdateCategory(int categoryId, string name, decimal limit)

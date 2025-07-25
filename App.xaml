@@ -3,16 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:PRN212_Project"
              xmlns:vm="clr-namespace:PRN212_Project.ViewModels"
+             xmlns:hp="clr-namespace:PRN212_Project.Helpers"
+             xmlns:cv="clr-namespace:PRN212_Project.Converters"
              StartupUri="Views/LoginWindow.xaml">
     <Application.Resources>
-        <local:LimitConverter x:Key="LimitConverter"/>
-        <local:CurrencyConverter x:Key="CurrencyConverter"/>
+        <cv:LimitConverter x:Key="LimitConverter" />
+        <cv:CurrencyConverter x:Key="CurrencyConverter" />
         <vm:LoginViewModel x:Key="LoginViewModel"/>
         <vm:RegisterViewModel x:Key="RegisterViewModel"/>
         <vm:ForgotPasswordViewModel x:Key="ForgotPasswordViewModel"/>
         <vm:OverviewViewModel x:Key="OverviewViewModel"/>
         <vm:AddIncomeViewModel x:Key="AddIncomeViewModel"/>
-        <vm:AddExpenseViewModel x:Key="AddExpenseViewModel"/>
-        <vm:ManageCategoriesViewModel x:Key="ManageCategoriesViewModel"/>
+        
     </Application.Resources>
 </Application>

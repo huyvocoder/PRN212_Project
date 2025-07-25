@@ -6,7 +6,7 @@ using PRN212_Project.Helpers;
 using PRN212_Project.Services;
 using PRN212_Project.Models;
 using System.Windows;
-using System.Linq; // Thêm using này để sử dụng LINQ
+using System.Linq;
 
 namespace PRN212_Project.ViewModels
 {
@@ -17,7 +17,7 @@ namespace PRN212_Project.ViewModels
         private decimal _amount;
         private string _note;
         private Window _currentWindow;
-        private string _categoryName; // THÊM: Thuộc tính mới để lưu tên danh mục
+        private string _categoryName;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -33,7 +33,7 @@ namespace PRN212_Project.ViewModels
             set { _note = value; OnPropertyChanged(); }
         }
 
-        public string CategoryName // THÊM: Getter cho tên danh mục
+        public string CategoryName
         {
             get => _categoryName;
             set { _categoryName = value; OnPropertyChanged(); }
@@ -47,11 +47,11 @@ namespace PRN212_Project.ViewModels
             _currentWindow = currentWindow;
             _categoryId = categoryId;
 
-            // THÊM: Lấy tên danh mục từ categoryId
             using (var context = new Prn212ProjectContext())
             {
                 var category = context.Categories.FirstOrDefault(c => c.Id == _categoryId);
                 CategoryName = category != null ? category.Name : "Unknown Category";
+                System.Diagnostics.Debug.WriteLine($"AddExpenseViewModel: Initialized for CategoryId={categoryId}, Name={CategoryName}");
             }
 
             SaveCommand = new RelayCommand(Save, CanSave);
@@ -62,8 +62,27 @@ namespace PRN212_Project.ViewModels
 
         private void Save(object parameter)
         {
-            _dataService.AddExpense(App.CurrentUserId, _categoryId, Amount, Note, DateTime.Now);
-            _currentWindow?.Close();
+            try
+            {
+                System.Diagnostics.Debug.WriteLine($"Saving Expense - UserId: {App.CurrentUserId}, CategoryId: {_categoryId}, Amount: {Amount}, Note: {Note}");
+                if (App.CurrentUserId == 0)
+                {
+                    MessageBox.Show("No user is logged in. Please log in first.");
+                    return;
+                }
+                if (_categoryId <= 0)
+                {
+                    MessageBox.Show("Invalid category selected.");
+                    return;
+                }
+                _dataService.AddExpense(App.CurrentUserId, _categoryId, Amount, Note, DateTime.Now);
+                _currentWindow?.Close();
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Error saving expense: {ex.Message}");
+                MessageBox.Show($"Failed to save expense: {ex.Message}");
+            }
         }
 
         private void Cancel(object parameter)
